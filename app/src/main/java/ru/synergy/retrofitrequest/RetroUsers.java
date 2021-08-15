@@ -1,4 +1,4 @@
-package com.jessicathornsby.retrofitrequest;
+package ru.synergy.retrofitrequest;
 
 import com.google.gson.annotations.SerializedName;
 

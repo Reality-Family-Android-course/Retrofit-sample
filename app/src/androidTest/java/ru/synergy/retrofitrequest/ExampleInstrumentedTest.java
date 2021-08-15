@@ -1,4 +1,4 @@
-package com.jessicathornsby.retrofitrequest;
+package ru.synergy.retrofitrequest;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;

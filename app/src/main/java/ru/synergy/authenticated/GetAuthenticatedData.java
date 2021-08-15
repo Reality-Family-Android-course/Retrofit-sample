@@ -1,9 +1,9 @@
-package com.jessicathornsby.authenticated;
+package ru.synergy.authenticated;
 
 
-import com.jessicathornsby.authenticated.pojo.AuthMessage;
-import com.jessicathornsby.authenticated.pojo.AuthRequest;
-import com.jessicathornsby.authenticated.pojo.SimpleResponse;
+import ru.synergy.authenticated.pojo.AuthMessage;
+import ru.synergy.authenticated.pojo.AuthRequest;
+import ru.synergy.authenticated.pojo.SimpleResponse;
 
 import retrofit2.Call;
 import retrofit2.http.Body;

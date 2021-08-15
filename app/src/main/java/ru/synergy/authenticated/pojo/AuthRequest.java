@@ -1,4 +1,4 @@
-package com.jessicathornsby.authenticated.pojo;
+package ru.synergy.authenticated.pojo;
 
 import com.google.gson.annotations.SerializedName;
 

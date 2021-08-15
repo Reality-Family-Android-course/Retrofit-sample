@@ -1,10 +1,12 @@
-package com.jessicathornsby.retrofitrequest;
+package ru.synergy.retrofitrequest;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
 import android.widget.TextView;
+
+import com.synergy.retrofitrequest.R;
 
 import java.util.List;
 

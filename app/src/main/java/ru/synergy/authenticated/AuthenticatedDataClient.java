@@ -1,12 +1,12 @@
-package com.jessicathornsby.retrofitrequest;
+package ru.synergy.authenticated;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class RetrofitClient {
+public class AuthenticatedDataClient {
 
     private static Retrofit retrofit;
-    private static final String BASE_URL = "https://jsonplaceholder.typicode.com";
+    private static final String BASE_URL = "https://jwt-example-android.herokuapp.com/";
 
 
     public static Retrofit getRetrofitInstance() {

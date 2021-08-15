@@ -1,4 +1,4 @@
-package com.jessicathornsby.retrofitrequest;
+package ru.synergy.retrofitrequest;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,11 +8,13 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.jessicathornsby.authenticated.pojo.AuthMessage;
-import com.jessicathornsby.authenticated.pojo.AuthRequest;
-import com.jessicathornsby.authenticated.AuthenticatedDataClient;
-import com.jessicathornsby.authenticated.GetAuthenticatedData;
-import com.jessicathornsby.authenticated.pojo.SimpleResponse;
+import ru.synergy.authenticated.pojo.AuthMessage;
+import ru.synergy.authenticated.pojo.AuthRequest;
+import ru.synergy.authenticated.AuthenticatedDataClient;
+import ru.synergy.authenticated.GetAuthenticatedData;
+import ru.synergy.authenticated.pojo.SimpleResponse;
+
+import com.synergy.retrofitrequest.R;
 
 import retrofit2.Call;
 import retrofit2.Callback;
